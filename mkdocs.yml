@@ -1,0 +1,4 @@
+site_name: UCL ARC MIRSG Docs
+site_url: http://localhost
+theme:
+    name: material
