@@ -1,8 +1,9 @@
 [project]
 dependencies = [
+    "mkdocs-git-revision-date-localized-plugin>=1.4.7",
     "mkdocs-material>=9.6.18",
 ]
-description = "Add your description here"
+description = "Documentation for the UCL ARC Collaborations - Medical Imaging (MIRSG) group"
 name = "docs"
 readme = "README.md"
 requires-python = ">=3.12"
