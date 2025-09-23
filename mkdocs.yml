@@ -53,6 +53,8 @@ theme:
 plugins:
   - search
   - privacy
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 copyright: >
   Copyright &copy; 2025 UCL ARC MIRSG – <a href="#__consent">Change cookie
