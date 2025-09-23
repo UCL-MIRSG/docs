@@ -58,11 +58,23 @@ plugins:
       enable_creation_date: true
 
 markdown_extensions:
-  - abbr # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#abbreviations
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
+  - abbr
+  - admonition
   - attr_list
+  - def_list
+  - footnotes
+  - tables
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.smartsymbols:
+      custom_checkbox: true
 
 watch:
   - includes
