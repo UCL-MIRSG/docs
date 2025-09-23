@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Needed for https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]

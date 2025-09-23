@@ -26,6 +26,7 @@ theme:
     - search.share # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-sharing
     - header.autohide # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/#automatic-hiding
     - content.action.edit # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
+    - content.tooltips
   icon:
     edit: material/pencil
     view: material/eye
@@ -55,6 +56,16 @@ plugins:
   - privacy
   - git-revision-date-localized:
       enable_creation_date: true
+
+markdown_extensions:
+  - abbr # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#abbreviations
+  - attr_list
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+
+watch:
+  - includes
 
 copyright: >
   Copyright &copy; 2025 UCL ARC MIRSG – <a href="#__consent">Change cookie
