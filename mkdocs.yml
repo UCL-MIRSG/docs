@@ -53,6 +53,7 @@ theme:
 
 plugins:
   - search
+  - awesome-nav # https://lukasgeiter.github.io/mkdocs-awesome-nav/features/nav/
   - privacy
   - git-revision-date-localized:
       enable_creation_date: true
