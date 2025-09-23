@@ -1,9 +1,9 @@
 [project]
-name = "docs"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
 dependencies = [
     "mkdocs-material>=9.6.18",
 ]
+description = "Add your description here"
+name = "docs"
+readme = "README.md"
+requires-python = ">=3.12"
+version = "0.1.0"
