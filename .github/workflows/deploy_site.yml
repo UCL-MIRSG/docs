@@ -27,10 +27,11 @@ jobs:
           path: ~/.cache
           restore-keys: |
             mkdocs-material-
-      - name: Install uv
+      - name: Install uv and activate the environment
         uses: astral-sh/setup-uv@b75a909f75acd358c2196fb9a5f1299a9a8868a4 # v6
         with:
           enable-cache: true
+          activate-environment: true
       - name: Install the Python dependencies
         run: uv sync --locked
       - run: mkdocs gh-deploy --force
