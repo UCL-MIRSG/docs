@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"UCL ARC MIRSG Documentation","text":""},{"location":"#who-we-are","title":"Who We Are","text":""},{"location":"OMERO/","title":"UCL OMERO Service","text":""},{"location":"XNAT/","title":"UCL XNAT Service","text":""}]}
