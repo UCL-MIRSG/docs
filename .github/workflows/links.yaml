@@ -10,6 +10,7 @@ on:
 
 jobs:
   links:
+    permissions: {}
     runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:

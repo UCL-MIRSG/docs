@@ -21,8 +21,10 @@ concurrency:
 jobs:
   linting:
     if: github.event.pull_request.draft == false
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     steps:
-      - uses: UCL-MIRSG/.github/actions/linting@e16932bcb9189707188ea268d4605e042c2b5d9a # v0
+      - uses: UCL-MIRSG/.github/actions/linting@d6e553c4106d7548768862bb5bd000f7de6510a1 # v0
         with:
           pre-commit-config: ./.pre-commit-config.yaml

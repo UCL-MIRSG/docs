@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5 # zizmor: ignore[artipacked]
         with:
           fetch-depth: 0 # Needed for https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
       - name: Configure Git Credentials
